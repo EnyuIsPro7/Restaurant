@@ -54,7 +54,7 @@ public class Restaurant {
                 total += menu.get(userOrder);
                 System.out.println("Added " + userOrder + " to your order.");
             } else {
-                System.out.println("Sorry, we don't have that item on the menu.");
+                System.out.println("We\'ll try to add " + userOrder + " to our menu soon!");
             }
         }
 
